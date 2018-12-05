@@ -8,6 +8,7 @@ const path = require('path');
 
 const app = express();
 
+mongoose.set('useCreateIndex', true);
 
 const bodyParser = require('body-parser');
 
